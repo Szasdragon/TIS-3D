@@ -1,6 +1,6 @@
-# Blocks
+# Blokkok
 
-This index lists all of the documented blocks in TIS-3D. If you're looking for an item, check out the [item index](../item/index.md) instead.
+Ez az oldal listázza az összes dokumentált blokkot a TIS-3D modban. Ha valamelyik tárgy érdekel, használd a [Tárgyak](../item/index.md) fejezetet.
 
-- [Controller](controller.md)
-- [Casing](casing.md)
+- [Vezérlő](controller.md)
+- [Keret](casing.md)
