@@ -1,11 +1,11 @@
-# Controller
+# Vezérlő
 
-![I have control](item:tis3d:controller)
+![Nagyvezír](item:tis3d:controller)
 
-The controller block is the core of any TIS-3D computer. It provides power to all connected [casings](casing.md) and advances the state of the TIS-3D computer. A controller can be powered using common redstone signals, with higher input values resulting in faster execution speed. As a special case, an input strength of one (1) will result in the TIS-3D computer entering a paused state, i.e. its state will not be advanced, but it will also not be powered down and therefore reset.
+A Vezérlő blokk a TIS-3D számítógép szíve. Ez láttja el energiával a többi kapcsolódó [Keretet](casing.md) és gondoskodik a gép központi órájáról is. A Vezérlő vöröskő jellel lehet működtetni. Erősebb jel gyorsabb program végrehajtást tesz lehetővé.  Különleges eset az egyes erőségű jel, a számítógép egy pillanat állj állapotba kerül, azaz nem kapcsol ki, de nem is halad tovább az utasítás végrehalytásal. Ekkor a különböző tárolt értékek nem vesznek el.
 
-A single controller block can support up to eight (8) [casing](casing.md) blocks. If more casing blocks are connected to a controller, the controller will perform an emergency shutdown and cease operation until the number of connected [casings](casing.md) is sufficiently reduced.
+Egy Vezérlő maximálisan csak adott mennyiségű (alapértelmezetten nyolc) [Keret](casing.md) blokkot tud kiszolgálni. Ha a megengedetnél több Keret blokk csatlakozik hozzá, a Vezérlő egy vészleállást hajt végre, és addig működés képtelen marad, amíg el nem lesz távolítva a felesleges [Keret](casing.md) blokkok.
 
-Controllers may not be connected to each other. If multiple controllers are connected, directly or indirectly through a series of [casings](casing.md), all controllers will perform an emergency shutdown and cease operation until they are no longer connected to any other controllers.
+Több Vezérlő nem kapcsolódhat egymáshoz sem közvetlenűl, sem közvetve. Ha mégis, akkor az összes vészleállást fog végrehajtani, és működés képtelen maradnak, amíg a kapcsolat fenáll.
 
-Connections are established by a controller and a [casing](casing.md) or a [casing](casing.md) and another [casing](casing.md) sharing a face.
+Egy kapcsolat akkor érvényes ha blokkok közös oldallal rendelkeznek. Ez lehet Vezérlő-[Keret](casing.md) vagy [Keret](casing.md)-[Keret](casing.md) is.

@@ -2,7 +2,7 @@
 
 ![Keretded](item:tis3d:casing)
 
-A Keret blokk képes akár hat modult is fogadni, egyet-egyet minden oldalán. Mivel egy Keretnek kapcsolódnia kell egy [Vezérlőhöz](controller.md), hogy működhessen, csak öt modul használható egyszerre. Szomszédos blokkok közös oldalait szintén nem lehet felhasználni. A modul automatikusan leválik ha egy másik Keret vagy Vezérlő blokkot kerül elé.
+A Keret blokk képes akár hat modult is fogadni, egyet-egyet minden oldalán. Mivel egy Keretnek kapcsolódnia kell egy [Vezérlőhöz](controller.md), hogy működhessen, csak öt modul használható egyszerre. Szomszédos blokkok közös oldalait szintén nem lehet felhasználni. A modul automatikusan leválik ha egy másik Keret vagy Vezérlő blokk kerül elé.
 
 A Keret négy portot biztosít minden modulnak, ami adatok továbbítását teszi lehetővé az élei mentén. Ha az éllel szomszédos egy másik Keret, akkor az információ aközös oldalon keresztűl a modullal szomszédos oldalra kerül át. Más esetben a Keret blokk éle menti szomszédos oldallal kerül összeköttetésbe.
 
